@@ -1,0 +1,190 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{Mohamed}{ Sweelam}
+      {Software Engineer}
+      
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth\fboxsep\fboxrule}{%
+.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{Update Date}
+	\emph{\today} 
+    ~
+  \section{Address}
+    Dubai, UAE
+    ~
+  \section{Date Of Birth}
+    26 - Fib -1993
+    ~
+  \section{Tel}
+    +971 0503068424
+    ~
+  \section{Mail}
+    \href{mailto:MohamedSweelam@fci.helwan.edu.eg}{\textbf{MohamedSweelam@}\\fci.helwan.edu.eg}
+    ~
+  \section{LinkedIn}
+    \textbf{www.linkedin.com/in\\/mohamedsweelam/}
+    ~
+  \section{OS Preference}
+    \textbf{GNU/Linux}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Unix}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Windows}\includegraphics[scale=0.40]{img/4stars.png}
+    ~
+  \section{Languages}
+    \textbf{Arabic}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{English}\includegraphics[scale=0.40]{img/4stars.png}
+    ~
+  \section{Personal Skills}
+    \includegraphics[scale=0.62]{img/personal.png}
+\end{aside}
+
+
+\section{Experience}
+\begin{entrylist}
+\entry
+    {07/18 - Now}
+    {Senior Solution Architect}
+    {Etisalat, Dubai , UAE}
+    {Senior solution architect in \textbf{telecom} industry, mainly developing sales portal application, a unified portal for mobile and web apps and going through the whole life cycle of software engineering starting from requirements gathering to customer delivery\\}
+    
+  \entry
+    {06/16 - 06/18}
+    {Java Developer Consultant}
+    {Egabi Solution, Naser City , Cairo}
+    {Senior acting as a team leader in \textbf{core banking} leading a team and Business Analyst, handling Support and technical issues reported from customer-side, integrating developed work and handling Data Migration \& Integration with 3\textsuperscript{rd} party tools.\\}
+  \entry
+    {01/16 - 07/17}
+    {Freelance Senior Developer \& Consultant}
+    {Turkey}
+    {Working as a Senior Java Back-end developer, Contributing in the Business Analysis and System Design phases, Designing and Developing Web App.\\}
+    \entry
+    {06/15 - 05/16}
+    {Software Engineer}
+    {BuduCloud, Dokki , Cairo}
+    {Working as junior in building ERP system, Developing a smart meter system, Contributing in the Business Analysis and System Design phases, Handling support with customers for production technical issues.\\}
+\end{entrylist}
+
+
+\section{Education}
+\begin{entrylist}
+  \entry
+    {2011 - 2015}
+    {B.CS: Computer Science}
+    {Computer Science, Helwan University}
+    {
+        Main subjects: Computer Science, Mathematics, Statistics \& Data Science.\\
+        \emph{GPA  \textbf{Good}.}\\
+        \emph{Graduation Project: "Data Visualization framework for Data Analytics"}
+        \begin{itemize}
+            \item \textbf{Grade:}    \hspace{3.6cm} Excellent with honor degree.
+            \item \textbf{Languages:} \hspace{2.8cm} JavaScript[ D3 \& Angular ] and C++.
+            \item \textbf{Contests Awards:} 
+            \begin{enumerate}
+                \item 1st Place MIE Contest. \hfill August 2015.
+                \item 1st Place IbteCar Contest. \hspace {1cm} @TIEC \hfill December 2015.
+             \end{enumerate}
+        \end{itemize}
+    }\\
+    
+\end{entrylist}
+
+\section{Certifications}
+\begin{entrylist}
+  \entry
+    {10/2013} {Machine Learning , Prof. Andrew Ng} {Coursera. E-learning} {}
+  \entry
+    {07/2014} {Project Management} {Ministry Of Communication} {}
+  \entry
+    {09/2013} {Human Computer Interaction} {Helwan University Research Lab} {}
+\end{entrylist}
+
+\newpage 
+
+\section{Projects}
+\begin{itemize}
+    \item \textbf{Micro-finance system for loan providing}.  \hfill \textbf{J2SE 6, ADF} \\
+    Loan provider system that supplies user with loans and deal as connector between user and bank that gives the loan to user.
+
+    \item \textbf{ Unified Sales Portal} \textit{Etisalat UAE}. \hfill \textbf{Spring Boot, Angular} \\
+   Unified Sales Portal or \textbf{USP} is a huge unification of 2 big sales applications for Etisalat UAE which do the the core sales business needs like creating account, migrating account, SIM portability etc.
+
+	\item \textbf{Foreign Account Tax Compliance Act} \textbf{[FATCA]} \hfill \textbf{Spring Boot \& Angular} \\
+	 FATCA application promotes cross border tax compliance by implementing an international standard for the automatic exchange of information related to US taxpayers. 
+        
+    
+    \item \textbf{Core banking system} \textit{egabi FSi}. \hfill \textbf{Spring Boot \& Angular} \\
+    egabi product's system covers the whole process of banking like General Ledger , Loan Management etc.
+
+    \item \textbf{Adviser system} \textit{QNB}. \hfill \textbf{J2SE 7, ADF} \\
+    Analysis system generates reports for tracking and monitoring employees performance each months and  answers smart questions based on business requirements.
+    
+\end{itemize}
+
+\section{Programming Skills}
+\begin{itemize}
+    \item {Java 2SE} {\hfill \includegraphics[scale=0.40]{img/5stars.png}} 
+
+	\item {Java 2EE} {\hfill \includegraphics[scale=0.40]{img/4stars.png}}             
+            
+    \item {Python} {\hfill \includegraphics[scale=0.40]{img/3stars.png}} 
+   
+    \item {SQL \& PL/SQL} {\hfill \includegraphics[scale=0.40]{img/3stars.png}} 
+    
+    \item {Javascript} {\hfill \includegraphics[scale=0.40]{img/3stars.png}} 
+       
+\end{itemize}
+
+\section{Frameworks}
+\begin{itemize}
+    \item {Application Development Fusion [ADF]}  \hfill \includegraphics[scale=0.40]{img/5stars.png}
+    
+    \item {Spring Boot} \hfill \includegraphics[scale=0.40]{img/4stars.png} 
+    
+    \item {Spring} \hfill \includegraphics[scale=0.40]{img/4stars.png} 
+            
+    \item {Angular 6} \hfill \includegraphics[scale=0.40]{img/4stars.png}     
+\end{itemize}
+  
+\section{Tools}
+\begin{itemize}
+    \begin{multicols}{3}
+        \item Jenkins  
+        \item Docker
+        \item Git 
+        \item SVN
+    \columnbreak
+        \item JDeveloper 
+        \item Netbeans
+        \item IntelliJ
+        \item Eclipse
+    \columnbreak
+        \item SQL Developer 
+        \item Weblogic
+        \item JBoss/Wildfly
+        \item Glassfish
+        \item Tomcat
+    \end{multicols}
+\end{itemize}
+\end{document}
